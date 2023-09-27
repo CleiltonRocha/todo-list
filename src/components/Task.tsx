@@ -1,7 +1,6 @@
 import styles from './Task.module.css'
 import { CheckCircle, Trash } from 'phosphor-react'
 import { TaskProps } from '../App'
-import { useState } from 'react';
 
 interface Props {
     task: TaskProps,
