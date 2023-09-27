@@ -13,16 +13,7 @@ export interface TaskProps {
 export function App() {
 
   const [tasks, setTasks] = useState<TaskProps[]>([
-    {
-      id: 'teste',
-      description: 'Teste de Tasks',
-      isCompleted: false
-    },
-    {
-      id: 'teste2',
-      description: 'Teste de Tasks 2',
-      isCompleted: true
-    }
+    
   ])
 
 
