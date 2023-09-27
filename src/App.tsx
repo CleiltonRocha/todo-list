@@ -1,9 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import uuid from 'react-uuid'
 import { Header } from "./components/Header";
 import styles from './App.module.css'
 import { PlusCircle } from "phosphor-react";
-import { Task } from "./components/Task";
 import { TaskList } from "./components/TaskList";
 
 export interface TaskProps {
